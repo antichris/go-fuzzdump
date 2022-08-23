@@ -46,12 +46,12 @@ $ fuzzdump ./fuzz/FuzzMyFunc
 
 #### Exit status
 
-| Code | Description                                                         |
-|:----:|---------------------------------------------------------------------|
-|  0   | Success                                                             |
-|  1   | Some files were invalid, but others could be dumped                 |
-|  2   | No valid corpus files were found                                    |
-|  3   | Another critical error occurred                                     |
+| Code | Description                                         |
+|:----:|-----------------------------------------------------|
+|   0  | Success                                             |
+|   1  | Some files were invalid, but others could be dumped |
+|   2  | No valid corpus files were found                    |
+|   3  | Another critical error occurred                     |
 
 
 ## License
